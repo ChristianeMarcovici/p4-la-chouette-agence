@@ -657,9 +657,7 @@ a {
     font-weight: 400;
     color: #575757;
 }
-footer p, footer li, footer a  {
-    color: #000;
-}
+
 
 .container {
     max-width: 1000px;
@@ -1082,12 +1080,27 @@ h4 {
       font-size: 1.3em ;
       max-width: 350px;  
   }
-  .footer {
-      width: 100%;
-  }
-.contraste-bloc5 h2, .contraste-bloc5 p {
+  footer p, footer li, footer a  {
+    color: #000;
+    font-size: 16px;
+}
+.contraste-bloc5 h2, .contraste-bloc5 h3 {
     font-size: 24px;
     font-weight: bold !important;
     text-shadow: 1px 1px 1px black;
     
+}
+.bg-button button {
+    background-color:transparent ;
+    border: none;
+  }
+  .footer-liens {
+      margin-top: 30px;
+  }
+.footer-liens-sociaux {
+    margin-top: 20px;
+    color: #000;
+}
+.width-logo {
+    width: 100px;
 }
