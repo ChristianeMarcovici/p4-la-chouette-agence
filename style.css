@@ -1,6 +1,7 @@
 body {
+    width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -363,6 +364,10 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .font-size-titre-portfolio {
+        margin-bottom: 70px !important;
+        border: 1px solid black;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -401,6 +406,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    
 }
 
 .nav > li > .dropdown a {
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -759,6 +765,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
+    width: 100%;
     text-decoration: underline!important;
 }
 
@@ -1039,4 +1046,38 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .col-sm-6 img {
+        margin: 20px auto;
+      }
 }
+.responsive-texte {
+    width: 95%;
+    margin: auto;
+  }
+  .responsive-texte img {
+    width: 100%;
+  }
+  .citation {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333333;
+  }
+  .citation-auteur {
+    font-size: 0.8em;
+    font-style: normal;
+    color: #333333;
+  }
+  .width-logo {
+    width: 100px;
+  }
+  .col-sm-6 img {
+    width : 270px ;
+    height: 270px ;
+  }
+  .height-title {
+      height: 40px;
+  }
+  .font-size-titre-portfolio {
+      font-size: 1.3em ;
+      max-width: 400px;  
+  }
