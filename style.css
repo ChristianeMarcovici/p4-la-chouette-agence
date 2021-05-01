@@ -1093,11 +1093,17 @@ footer p {
   border: none;
 }
 .footer-liens-sociaux {
-  margin-top: 30px;
+  margin-top: 30px !important;
   margin-bottom: 30px !important;
   color: #000;
 }
 .width-logo {
   width: 100px !important;
   height: 100px !important;
+}
+.page2-contraste h1 {
+  color: #364577 !important;
+}
+.page2-contraste p {
+  color: #151b2d !important ;
 }
