@@ -1104,6 +1104,7 @@ footer p {
 .page2-contraste h1 {
   color: #364577 !important;
 }
-.page2-contraste p {
+.page2-contraste h2 {
   color: #151b2d !important ;
+  font-size: 16px !important;
 }
